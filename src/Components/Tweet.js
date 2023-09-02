@@ -26,7 +26,7 @@ function TweetContainer() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <img src="https://pbs.twimg.com/profile_images/1398147289005268993/Qq1XDr_e_400x400.jpg" className="profile_img" />
+          <img src="https://pbs.twimg.com/profile_images/1398147289005268993/Qq1XDr_e_400x400.jpg" className="profile_img" alt="img_p" />
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
